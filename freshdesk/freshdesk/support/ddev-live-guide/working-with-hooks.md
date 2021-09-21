@@ -12,9 +12,9 @@ freshdesk:
     tags: []
 ---
 
-DDEV Live provides hooks enabling developers to customize parts of the deployment process to support their applications and desired workflows.
+Fru Live provides hooks enabling developers to customize parts of the deployment process to support their applications and desired workflows.
 
-# DDEV Live Project Hooks
+# Fru Live Project Hooks
 
 The hook system allows for definition of hooks that can be made specific to a given environment. There are also 2 special environment names that can allow for hook actions to be defined for multiple environments:
 
@@ -33,7 +33,7 @@ Hook actions are queued for execution with platform defaults and special default
 
 ## Supported Hooks
 
-DDEV Live currently provides support for the following hooks. Additional hooks are likely to be added in the future as we provide further support for customizing the deployment and lifecycle process for applications.
+Fru Live currently provides support for the following hooks. Additional hooks are likely to be added in the future as we provide further support for customizing the deployment and lifecycle process for applications.
 
 - *pre-deploy*: This hook is executed after your code has been pushed and a container for your application has been built. It is executed before the actual deployment for your application is released to the cluster. This hook can be useful for performing actions such as creating database and file backups for your application prior to a deployment.
 
@@ -140,5 +140,5 @@ Build Hook
 
 Supported in CLI
 
-Explicit composer support is built into ddev-local
+Explicit composer support is built into Fru-local
 

@@ -1,19 +1,19 @@
 ---
 title: Adminstration
-description: User management and administrative tasks on DDEV-Live hosting
+description: User management and administrative tasks on Fru.io hosting
 ---
 # Administration
 
-The DDEV-Live platform is designed to work with [organizations](organizations.md). As an administrator, you can administer the users that have the ability to manage deployments for an [organization](organizations.md). Administration is managed through the `ddev-live admin` set of commands.
+The Fru.io platform is designed to work with [organizations](organizations.md). As an administrator, you can administer the users that have the ability to manage deployments for an [organization](organizations.md). Administration is managed through the `Fru.io admin` set of commands.
 
 ## Listing users
-Listing users for the [organization](organizations.md) you are authenticated against is accomplised with `ddev-live admin list`.
+Listing users for the [organization](organizations.md) you are authenticated against is accomplised with `Fru.io admin list`.
 
 ```
-$  ddev-live admin list
+$  Fru.io admin list
 ADMINS
  NAME                TYPE
- ddev-demo@ddev.com  Admin
+ Fru-demo@Fru.io  Admin
  bar@example.com     Admin
 
 DEVELOPERS
@@ -22,35 +22,35 @@ DEVELOPERS
 ```
 
 ## Adding users
-You can add an administrator or a developer to an [organization](organizations.md). An administrator has the ability to add and remove other administrators in addition to managing deployments. A developer can use all functionality provided by the ddev-live client other than adding and removing administrators. The users email address should be the same as their [GitHub](github.md) email address.
+You can add an administrator or a developer to an [organization](organizations.md). An administrator has the ability to add and remove other administrators in addition to managing deployments. A developer can use all functionality provided by the Fru.io client other than adding and removing administrators. The users email address should be the same as their [GitHub](github.md) email address.
 
-Add a developer with `ddev-live admin add developer`.
-
-```
-$ ddev-live admin add developer foo@example.com
-Added developer foo@example.com to organization ddev-demo
-```
-
-Add a developer with `ddev-live admin add administrator`.
+Add a developer with `Fru.io admin add developer`.
 
 ```
-$ ddev-live admin add admin bar@example.com
-Added user bar@example.com to organization ddev-demo
+$ Fru.io admin add developer foo@example.com
+Added developer foo@example.com to organization Fru-demo
+```
+
+Add a developer with `Fru.io admin add administrator`.
+
+```
+$ Fru.io admin add admin bar@example.com
+Added user bar@example.com to organization Fru-demo
 ```
 
 ## Deleting users
-Delete a developer with `ddev-live admin delete developer`.
+Delete a developer with `Fru.io admin delete developer`.
 
 ```
-$ ddev-live admin delete developer foo@example.com
-Are you sure you want to delete developer ddev-demo/foo@example.com? (Y/n) y
-Deleted developer foo@example.com from organization ddev-demo
+$ Fru.io admin delete developer foo@example.com
+Are you sure you want to delete developer Fru-demo/foo@example.com? (Y/n) y
+Deleted developer foo@example.com from organization Fru-demo
 ```
 
-Delete a developer with `ddev-live admin delete administrator`.
+Delete a developer with `Fru.io admin delete administrator`.
 
 ```
-$ ddev-live admin delete admin bar@example.com
-Are you sure you want to delete admin ddev-demo/bar@example.com? (Y/n) y
-Deleted admin bar@example.com from organization ddev-demo
+$ Fru.io admin delete admin bar@example.com
+Are you sure you want to delete admin Fru-demo/bar@example.com? (Y/n) y
+Deleted admin bar@example.com from organization Fru-demo
 ```

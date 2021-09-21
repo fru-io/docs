@@ -1,8 +1,8 @@
 ---
-title: 'HTTPS on DDEV-Live'
+title: 'HTTPS on Fru-Live'
 description: null
 freshdesk:
-    title: 'HTTPS on DDEV-Live'
+    title: 'HTTPS on Fru-Live'
     id: 36000069971
     type: 1
     category_id: 36000020154
@@ -12,9 +12,9 @@ freshdesk:
     agent_id: 36008255312
 ---
 
-DDEV-Live provides free TLS certificates for every site launched on the platform through [Let's Encrypt](<https://letsencrypt.org>). Unless you specifically request that a given site *not* be served over HTTPS, we will enable HTTPS and provision a certificate automatically. Please note: at this time we do *not* serve a redirect from HTTP to HTTPS, so your application code will need to handle that.
+Fru.io provides free TLS certificates for every site launched on the platform through [Let's Encrypt](<https://letsencrypt.org>). Unless you specifically request that a given site *not* be served over HTTPS, we will enable HTTPS and provision a certificate automatically. Please note: at this time we do *not* serve a redirect from HTTP to HTTPS, so your application code will need to handle that.
 
-In order to provision a certificate for a particular hostname, DNS for that hostname must be pointed at the ddev-live platform.
+In order to provision a certificate for a particular hostname, DNS for that hostname must be pointed at the Fru.io platform.
 
 ## Limitations
 
@@ -30,7 +30,7 @@ At present, we do not have support for wildcard certificates.
 
 ## Non-Let's Encrypt certificates
 
-For clients with a dedicated Technical Account Manager, we currently offer limited support for bringing your own certificate to the DDEV-Live platform. If this is a requirement for your deployment, please reach out to your TAM for more details.
+For clients with a dedicated Technical Account Manager, we currently offer limited support for bringing your own certificate to the Fru.io platform. If this is a requirement for your deployment, please reach out to your TAM for more details.
 
 As a general guideline, we require a minimum term of three years. Additionally, we do not monitor or renew certificates that you have provided to us, so we ask that you notify us 90 days before the certificate expires and provide us with an updated certificate as soon as you're able to get one from your certificate issuer.
 

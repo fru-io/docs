@@ -12,7 +12,7 @@ freshdesk:
     tags: []
 ---
 
-On DDEV Live, the default for cron jobs in Drupal applications is hourly. If you need changes to that default, please submit a support ticket.
+On Fru Live, the default for cron jobs in Drupal applications is hourly. If you need changes to that default, please submit a support ticket.
 
 There is no default cron job for WordPress applications, if you have custom cron job requirements please submit a ticket.
 

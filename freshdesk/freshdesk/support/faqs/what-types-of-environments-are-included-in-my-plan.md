@@ -12,11 +12,11 @@ freshdesk:
     tags: []
 ---
 
-In DDEV-Live, a project is a grouping of environments (e.g. stage and prod), linked together with a GIT repository endpoint.
+In Fru-Live, a project is a grouping of environments (e.g. stage and prod), linked together with a GIT repository endpoint.
 
 All environments are functionally the same, with instance sizes (CPU and RAM) shaped towards anticipated traffic and memory requirements. You may request as many as you've allotted for in your hosting agreement, and customize them to fit your workflow.
 
-By default, we will provision a production environment for each of your projects, with a master branch and a site preview URL at `[projectname]-production.site-prod.ddevlive.drud.io` when your environment is created.
+By default, we will provision a production environment for each of your projects, with a master branch and a site preview URL at `[projectname]-production.site-prod.Frulive.drud.io` when your environment is created.
 
-Staging environments follow this naming convention: `[projectname]-staging.site-stage.ddevlive.drud.io.`At your request, we can setup a custom domain for staging such as `staging.[projectname].com` via a CNAME, aliased to the environment.
+Staging environments follow this naming convention: `[projectname]-staging.site-stage.Frulive.drud.io.`At your request, we can setup a custom domain for staging such as `staging.[projectname].com` via a CNAME, aliased to the environment.
 

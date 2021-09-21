@@ -1,12 +1,12 @@
 ---
 title: Drupal Guide
-description: Deploy Drupal to DDEV-Live hosting
+description: Deploy Drupal to Fru.io hosting
 ---
 # Drupal Getting Started Guide
 
-This tutorial gives an example of the DDEV-Live commands specific to Drupal. First you will need to set up your DDEV-Live account and connect to your [GitHub](https://docs.ddev.com/github/) acccount using the [Getting Started Guide](https://docs.ddev.com/getting-started/). DDEV-Live supports other PHP applications and CMSs such as [TYPO3](https://docs.ddev.com/typo3-guide/), [WordPress](https://docs.ddev.com/typo3-guide/).
+This tutorial gives an example of the Fru.io commands specific to Drupal. First you will need to set up your Fru.io account and connect to your [GitHub](https://docs.fru.io/ github/) acccount using the [Getting Started Guide](https://docs.fru.io/ getting-started/). Fru.io supports other PHP applications and CMSs such as [TYPO3](https://docs.fru.io/ typo3-guide/), [WordPress](https://docs.fru.io/ typo3-guide/).
 
-## DDEV-Live default settings for Drupal
+## Fru.io default settings for Drupal
 We give additional flags below to use if your project differs from these defaults.
 
 - Default Drupal version is Drupal 8.
@@ -16,15 +16,15 @@ We give additional flags below to use if your project differs from these default
 - Default php version is 7.2.
 
 ## Add a Drupal site from your connected GitHub account
-To create a [site](https://docs.ddev.com/sites/) named `mysite` on DDEV-Live and import code from a [connected GitHub account](https://docs.ddev.com/github/) named `ddev-demo` with a repo named `mysite` using the default settings, run:
+To create a [site](https://docs.fru.io/ sites/) named `mysite` on Fru.io and import code from a [connected GitHub account](https://docs.fru.io/ github/) named `Fru-demo` with a repo named `mysite` using the default settings, run:
 ```
-$ ddev-live create site drupal mysite --git-repo https://github.com/ddev-demo/mysite
+$ Fru.io create site drupal mysite --git-repo https://github.com/Fru-demo/mysite
 ```
 
-Use `ddev-live describe site mysite` to view info about your [site](https://docs.ddev.com/sites/).
+Use `Fru.io describe site mysite` to view info about your [site](https://docs.fru.io/ sites/).
 
 ## Drupal-specific flags
-You can add flags for specific configuration options. Use `ddev-live create site drupal --help` to see all possible flags and their descriptions.
+You can add flags for specific configuration options. Use `Fru.io create site drupal --help` to see all possible flags and their descriptions.
 
 | Flag | Description |
 | :---- | :----------- |
@@ -36,10 +36,10 @@ You can add flags for specific configuration options. Use `ddev-live create site
 
 Here is an example for a Drupal 9 site specifying the Drupal version, php version, docroot and running `composer install`:
 ```
-$ ddev-live create site drupal ddev-demo/mysite --git-repo https://github.com/ddev-demo/mysite --php-version=7.3 --drupal-version=9 --docroot web --run-composer-install
+$ Fru.io create site drupal Fru-demo/mysite --git-repo https://github.com/Fru-demo/mysite --php-version=7.3 --drupal-version=9 --docroot web --run-composer-install
 ```
 
 Here is an example for a Drupal 8 site that requires `composer install`, with the docroot in /web:
 ```
-$ ddev-live create site drupal ddev-demo/mysite --git-repo https://github.com/ddev-demo/mysite --docroot web --run-composer-install
+$ Fru.io create site drupal Fru-demo/mysite --git-repo https://github.com/Fru-demo/mysite --docroot web --run-composer-install
 ```

@@ -1,6 +1,6 @@
-DDEV-Live Documentation
+Fru.io Documentation
 ======================
-https://docs.ddev.com
+https://docs.fru.io
 
 ## Contributions
 Edits, additions, corrections, etc are most welcome. Our docs live in the `docs` folder and are written in [Markdown](https://daringfireball.net/projects/markdown/).
@@ -17,8 +17,8 @@ git@github.com:drud/docs.git
 
 ### Build and run the container
 ```bash
-docker build -t ddev-mkdocs .
-docker run -it --rm -p 8000:8000 ddev-mkdocs
+docker build -t Fru-mkdocs .
+docker run -it --rm -p 8000:8000 Fru-mkdocs
 ```
 
 ### Workflow

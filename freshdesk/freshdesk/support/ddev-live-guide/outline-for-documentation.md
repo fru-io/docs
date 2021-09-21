@@ -36,11 +36,11 @@ freshdesk:
         - Modify
         - Delete
 
-    - Migrating sites - Prepare a site for running on ddev-live
+    - Migrating sites - Prepare a site for running on Fru-live
 
         - Using migration-tools
         - Proxy traffic to legacy infrastructure
-        - Point DNS at ddev-live
+        - Point DNS at Fru-live
         - Cut over to full-hosting mode
         - Using a migration tracker spreadsheet
         - HTTPS caveats

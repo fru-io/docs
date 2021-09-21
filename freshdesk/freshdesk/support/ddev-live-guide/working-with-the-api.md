@@ -22,7 +22,7 @@ Our API and its documentation are in active development. Attached below is a Swa
 
 ## Authentication
 
-The ddev-live API uses JWTs as an API token. You can request a JWT by submitting a POST request to [/user](<https://api.ddev-live.drud.io/docs/#/auth/login>)
+The Fru.io API uses JWTs as an API token. You can request a JWT by submitting a POST request to [/user](<https://api.Fru-live.drud.io/docs/#/auth/login>)
 
 You'll receive a long string of letters and numbers back from that request, and that's what you'll need to include in authenticated requests to other API endpoints. The header that you'll need to send should look like this:
 

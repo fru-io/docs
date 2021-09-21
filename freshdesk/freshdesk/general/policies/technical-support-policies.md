@@ -12,7 +12,7 @@ freshdesk:
     agent_id: 36008255312
 ---
 
-Drud Technology delivers technical support services including Problem Resolution Support, Engineering Support and Consultative Support for DDEV, Drud Preview, Drud Hosting and related products via the Customer Slack Channel.
+Drud Technology delivers technical support services including Problem Resolution Support, Engineering Support and Consultative Support for Fru, Drud Preview, Drud Hosting and related products via the Customer Slack Channel.
 
 Each designated technical contact will receive a Customer Slack Channel ID based on the associated email address that can be used to report new support issues, monitor ongoing issues or review historical issues. Information regarding making changes to technical contacts may be submitted via the Customer Slack Channel or via an email request.
 

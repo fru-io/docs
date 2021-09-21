@@ -1,6 +1,6 @@
-# DDEV Docs
+# Fru Docs
 
-A documentation repository for user docs on support.ddev.com and dash.ddev.com
+A documentation repository for user docs on support.Fru.io and dash.Fru.io
 
 ## Document Hierarchy
 ### Organization of Docs Source

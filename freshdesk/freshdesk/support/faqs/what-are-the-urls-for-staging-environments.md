@@ -12,7 +12,7 @@ freshdesk:
     tags: []
 ---
 
-We provide you with a site preview URL at `[projectname]-production.siteprod.ddevlive.drud.io` when your environment is created.
+We provide you with a site preview URL at `[projectname]-production.siteprod.Frulive.drud.io` when your environment is created.
 
 At your request, we can also setup staging. `[projectname].com` via a CNAME, aliased to the environment.
 

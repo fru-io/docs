@@ -12,7 +12,7 @@ freshdesk:
     tags: []
 ---
 
-##  Getting started with DDEV-Live.
+##  Getting started with Fru-Live.
 
 # Access and Setup
 
@@ -48,7 +48,7 @@ s3cmd --access_key=<access_key> --secret_key=<secret> --region=us-east-1 --no-ch
 
 ## Provisioning Your Site
 
-- Once uploaded to S3, please [submit a ticket](<https://support.drud.com/support/tickets/new>) and ask us to provision your site on DDEV-Live. *Please indicate the location of the file(s) in S3 to be used in the restore.*
+- Once uploaded to S3, please [submit a ticket](<https://support.drud.com/support/tickets/new>) and ask us to provision your site on Fru-Live. *Please indicate the location of the file(s) in S3 to be used in the restore.*
 
-- We'll let you know when it's ready. Then visit your site’s preview URL to [begin working with your site](<https://support.drud.com/support/solutions/articles/36000106365-working-with-ddev-live-sites>).
+- We'll let you know when it's ready. Then visit your site’s preview URL to [begin working with your site](<https://support.drud.com/support/solutions/articles/36000106365-working-with-Fru-live-sites>).
 
