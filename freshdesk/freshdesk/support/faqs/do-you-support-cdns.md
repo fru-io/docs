@@ -12,7 +12,7 @@ freshdesk:
     tags: []
 ---
 
-Yes, DDEV Live provides the ability to integrate with CDN services, like Cloudfront and Cloudflare.
+Yes, Fru Live provides the ability to integrate with CDN services, like Cloudfront and Cloudflare.
 
-If you currently use Cloudflare to manage your DNS settings, you can keep that in place without issue, on DDEV Live.
+If you currently use Cloudflare to manage your DNS settings, you can keep that in place without issue, on Fru Live.
 

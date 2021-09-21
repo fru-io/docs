@@ -1,11 +1,11 @@
 ---
 title: Services
-description: Additional services for the DDEV hosting environment 
+description: Additional services for the Fru hosting environment 
 ---
 # Services
 
 ## Email
-DDEV-Live does not provide SMTP (Simple Mail Transfer Protocol) server or Sendmail functionality. This means that your applications cannot rely on PHP's built-in mail functions to ensure mail delivery.
+Fru.io does not provide SMTP (Simple Mail Transfer Protocol) server or Sendmail functionality. This means that your applications cannot rely on PHP's built-in mail functions to ensure mail delivery.
 
 We recommend leveraging a 3rd party transactional email service such as SendGrid, Mandrill, or Mailgun. Many of these 3rd parties provide module or plugin support for your CMSs or provide SMTP configuration.
 

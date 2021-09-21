@@ -1,7 +1,7 @@
 const Freshdesk = require("freshdesk-api")
 const { makeRequest } = require("freshdesk-api/lib/utils")
 
-class DDEVFreshdesk extends Freshdesk {
+class FruFreshdesk extends Freshdesk {
 
     /**
 	 * Freshdesk APIv2 client
@@ -52,4 +52,4 @@ class DDEVFreshdesk extends Freshdesk {
     }
 
 }
-module.exports = DDEVFreshdesk
+module.exports = FruFreshdesk

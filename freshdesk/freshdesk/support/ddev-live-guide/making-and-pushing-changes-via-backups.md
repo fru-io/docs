@@ -23,7 +23,7 @@ Make your changes locally or in the appropriate environment. Once the changes ha
 
 ### To Create Drupal Backups
 
-Connect to your Drupal web instance. If you are using DDEV-Local, you can use the ddev ssh command to connect to the web container.
+Connect to your Drupal web instance. If you are using Fru-Local, you can use the Fru ssh command to connect to the web container.
 
 To backup the database, run
 
@@ -39,13 +39,13 @@ tar -zcvf file-backup.tar.gz /path/to/site
 
 ### To Create WordPress Backups
 
-Connect to your WordPress web instance. If you are using DDEV-Local, you can use the ddev ssh command to connect to the web container.
+Connect to your WordPress web instance. If you are using Fru-Local, you can use the Fru ssh command to connect to the web container.
 
 To backup the database, from the WordPress root directory, run `wp db export /path/to/database-backup.sql` to generate the SQL backup, then run `gzip /path/to/database-backup.sql` to compress the resulting file.
 
 To backup the site files, from the WordPress root directory, run `tar -zcvf file-backup.tar.gz .` (note the dot at the end, to ensure all files in the directory are included)
 
-### Push Backups to DDEV-Live
+### Push Backups to Fru-Live
 
-WE ARE MISSING THE FINAL STEP, how to deploy on ddev-live?
+WE ARE MISSING THE FINAL STEP, how to deploy on Fru-live?
 

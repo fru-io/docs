@@ -2,7 +2,7 @@ version: "3"
 
 services:
   base:
-    container_name: ddev_docs
+    container_name: Fru_docs
     environment:
       - FRESHDESKAPITOKEN
     build: .

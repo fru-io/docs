@@ -1,8 +1,8 @@
 ---
-title: 'Where can I find information on DDEV-Live security processes?'
+title: 'Where can I find information on Fru.io security processes?'
 description: null
 freshdesk:
-    title: 'Where can I find information on DDEV-Live security processes?'
+    title: 'Where can I find information on Fru.io security processes?'
     id: 36000124844
     type: 1
     category_id: 36000115505

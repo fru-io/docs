@@ -4,7 +4,7 @@ const path = require("path")
 const showdown = require("showdown")
 const fm = require("front-matter")
 const striptags = require("striptags")
-const DDEVFreshdesk = require("./freshdesk")
+const FruFreshdesk = require("./freshdesk")
 
 const converter = new showdown.Converter({
     tables: true,
@@ -14,7 +14,7 @@ const converter = new showdown.Converter({
     omitExtraWLInCodeBlocks: true,
     disableForced4SpacesIndentedSublists: true
 })
-const freshdesk = new DDEVFreshdesk("https://drudtech.freshdesk.com", process.env.FRESHDESKAPITOKEN)
+const freshdesk = new FruFreshdesk("https://drudtech.freshdesk.com", process.env.FRESHDESKAPITOKEN)
 
 // validate path to search for support docs
 if (process.argv.length <= 2) {

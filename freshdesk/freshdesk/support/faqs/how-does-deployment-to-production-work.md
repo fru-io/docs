@@ -14,5 +14,5 @@ freshdesk:
 
 *There aren't manual steps involved with adeploy/merge to production*. \_As long as all of your dependencies are in the git push, they will get deployed. Settings files will be generated and automatically connected to the DB.
 
-Because the DDEV LIve build process is not complex, you should expect that whatever you push to DDEV Live will get deployed. If there’s a failure in the managed part of the platform, we’ll absolutely take care of it.
+Because the Fru LIve build process is not complex, you should expect that whatever you push to Fru Live will get deployed. If there’s a failure in the managed part of the platform, we’ll absolutely take care of it.
 

@@ -12,7 +12,7 @@ freshdesk:
     tags: []
 ---
 
-DDEV-Live currently supports PHP `7.0`, `7.1`, and `7.3` for websites.
+Fru.io currently supports PHP `7.0`, `7.1`, and `7.3` for websites.
 
 *PHP `5.6` is **[end-of-life](<http://php.net/supported-versions.php>)** and no longer supported.*
 

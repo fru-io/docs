@@ -1,7 +1,7 @@
 {
-  "name": "ddev-docs",
+  "name": "Fru-docs",
   "version": "1.0.0",
-  "description": "DDEV-Live Documentation",
+  "description": "Fru.io Documentation",
   "directories": {
     "doc": "docs"
   },

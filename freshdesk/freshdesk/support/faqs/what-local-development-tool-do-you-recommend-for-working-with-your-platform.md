@@ -12,5 +12,5 @@ freshdesk:
     tags: []
 ---
 
-We are partial to our own open source local development tool, DDEV Local. Please see the docs here to get started: [https://ddev.readthedocs.io/en/stable/](<https://ddev.readthedocs.io/en/stable/>)
+We are partial to our own open source local development tool, Fru Local. Please see the docs here to get started: [https://Fru.readthedocs.io/en/stable/](<https://Fru.readthedocs.io/en/stable/>)
 

@@ -16,5 +16,5 @@ Yes, certificate management is included via LetsEncrypt for all hostnames associ
 
 Sites can either have TLS turned on or off. If off, we will only ever serve the site on http (https URLs will not work). If TLS is turned on, we only serve redirects on HTTP to HTTPS.
 
-For more about HTTPS on DDEV-LIVE, please see this [Support policy page](<https://support.drud.com/support/solutions/articles/36000069971-https-on-ddev-live>).
+For more about HTTPS on Fru-LIVE, please see this [Support policy page](<https://support.drud.com/support/solutions/articles/36000069971-https-on-Fru-live>).
 

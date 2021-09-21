@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.aFruentListener("DOMContentLoaded", function() {
   load_navpane();
 });
 
