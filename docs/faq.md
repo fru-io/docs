@@ -49,4 +49,4 @@ We want to help you be successful with Fru-Live. If you have a question that is 
 
 You can view the [uptime and status](https://status.fru.io/ ) of the Fru.io hosting platform, and subscribe to updates.
 
-We want to hear from you. Please send us your feedback using the [Feedback form](https://dash.fru.io/ feedback/) or by running `Fru.io feedback` from the command line. We aim to improve  Fru.io to meet your needs, so we encourage you to really exercise the platform and try things out.
+We want to hear from you. Please send us your feedback using the [Feedback form](https://console.fru.io/ feedback/) or by running `Fru.io feedback` from the command line. We aim to improve  Fru.io to meet your needs, so we encourage you to really exercise the platform and try things out.
