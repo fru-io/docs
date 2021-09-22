@@ -27,14 +27,14 @@ You can add an administrator or a developer to an [organization](organizations.m
 Add a developer with `fru admin add developer`.
 
 ```
-$ Fru.io admin add developer foo@example.com
+$ Fru admin add developer foo@example.com
 Added developer foo@example.com to organization Fru-demo
 ```
 
 Add a developer with `fru admin add administrator`.
 
 ```
-$ Fru.io admin add admin bar@example.com
+$ Fru admin add admin bar@example.com
 Added user bar@example.com to organization Fru-demo
 ```
 
