@@ -42,15 +42,15 @@ Added user bar@example.com to organization Fru-demo
 Delete a developer with `Fru.io admin delete developer`.
 
 ```
-$ Fru.io admin delete developer foo@example.com
+$ Fru admin delete developer foo@example.com
 Are you sure you want to delete developer Fru-demo/foo@example.com? (Y/n) y
 Deleted developer foo@example.com from organization Fru-demo
 ```
 
-Delete a developer with `Fru.io admin delete administrator`.
+Delete a developer with `Fru admin delete administrator`.
 
 ```
-$ Fru.io admin delete admin bar@example.com
+$ Fru admin delete admin bar@example.com
 Are you sure you want to delete admin Fru-demo/bar@example.com? (Y/n) y
 Deleted admin bar@example.com from organization Fru-demo
 ```
