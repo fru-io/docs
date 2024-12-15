@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/drud/docs#readme",
   "dependencies": {
-    "express": "^4.20.0",
+    "express": "^4.21.2",
     "freshdesk-api": "^2.5.0",
     "front-matter": "^3.0.1",
     "lodash": "^4.17.21",
