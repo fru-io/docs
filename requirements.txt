@@ -25,5 +25,5 @@ PyYAML==5.4
 regex==2020.7.14
 six==1.15.0
 smmap==3.0.4
-tornado==6.0.4
+tornado==6.4.2
 tqdm==4.66.3
