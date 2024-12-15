@@ -26,7 +26,7 @@
     "express": "^4.16.4",
     "freshdesk-api": "^2.5.0",
     "front-matter": "^3.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "showdown": "git+https://github.com/showdownjs/showdown.git",
     "striptags": "^3.1.1",
     "yamljs": "^0.3.0"
