@@ -24,14 +24,14 @@
   "homepage": "https://github.com/drud/docs#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "freshdesk-api": "^2.5.0",
-    "front-matter": "^3.0.1",
+    "freshdesk-api": "^2.7.0",
+    "front-matter": "^4.0.2",
     "lodash": "^4.17.21",
-    "showdown": "git+https://github.com/showdownjs/showdown.git",
+    "showdown": "^2.1.0",
     "striptags": "^3.2.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.1"
+    "eslint": "^8.56.0"
   }
 }

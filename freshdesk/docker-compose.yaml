@@ -1,15 +1,25 @@
-version: "3"
+version: "3.8"
 
 services:
   base:
     container_name: Fru_docs
-    environment:
-      - FRESHDESKAPITOKEN
-    build: .
+    env_file: .env
+    build: 
+      context: .
+      args:
+        - NODE_ENV=production
     volumes:
-      - .:/usr/src/app
+      - .:/usr/src/app:ro
       - /usr/src/app/node_modules
     ports:
-      - 3000:3000
-      - 9229:9229
+      - "127.0.0.1:3000:3000"
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
     command: npm start
